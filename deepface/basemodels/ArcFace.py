@@ -27,7 +27,12 @@ def loadModel(url = 'https://github.com/serengil/deepface_models/releases/downlo
 	#check the availability of pre-trained weights
 
 	home = str(Path.home())
+<<<<<<< HEAD
 
+=======
+	
+	url = "https://drive.google.com/uc?id=1_NHx0Qf6-N_9YYQ_NKdUzzoKD8D9CPl5"
+>>>>>>> change google drive link of ArcFace and DeepID
 	file_name = "arcface_weights.h5"
 	output = home+'/.deepface/weights/'+file_name
 
