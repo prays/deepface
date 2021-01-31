@@ -22,11 +22,17 @@ def l2_normalize(x):
     return x / np.sqrt(np.sum(np.multiply(x, x)))
 
 def findThreshold(model_name, distance_metric):
+<<<<<<< HEAD
 
 	base_threshold = {'cosine': 0.40, 'euclidean': 0.55, 'euclidean_l2': 0.75}
 
+=======
+	
+	base_threshold = {'cosine': 0.40, 'euclidean': 0.55, 'euclidean_l2': 0.78}
+	
+>>>>>>> change distance VGG-Facenet
 	thresholds = {
-		'VGG-Face': {'cosine': 0.40, 'euclidean': 0.55, 'euclidean_l2': 0.75},
+		'VGG-Face': {'cosine': 0.40, 'euclidean': 0.55, 'euclidean_l2': 0.78},
 		'OpenFace': {'cosine': 0.10, 'euclidean': 0.55, 'euclidean_l2': 0.55},
 		'Facenet':  {'cosine': 0.40, 'euclidean': 10, 'euclidean_l2': 0.80},
 		'DeepFace': {'cosine': 0.23, 'euclidean': 64, 'euclidean_l2': 0.64},
