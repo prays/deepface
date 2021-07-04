@@ -9,15 +9,10 @@ from tensorflow.keras.layers import Conv2D, Activation, Input, Add, MaxPooling2D
 
 #-------------------------------------
 
-<<<<<<< HEAD
 #url = 'https://drive.google.com/uc?id=1uRLtBCTQQAvHJ_KVrdbRJiCKxU8m5q2J'
 
 def loadModel(url = 'https://github.com/serengil/deepface_models/releases/download/v1.0/deepid_keras_weights.h5'):
 
-=======
-def loadModel(url = 'https://drive.google.com/uc?id=1-3lwm46JodsHHDOKf2HhCflMOQ1wazXw'):
-	
->>>>>>> change google drive link of ArcFace and DeepID
 	myInput = Input(shape=(55, 47, 3))
 
 	x = Conv2D(20, (4, 4), name='Conv1', activation='relu', input_shape=(55, 47, 3))(myInput)
