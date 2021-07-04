@@ -7,7 +7,7 @@ opencv-python>=4.2.0.34
 opencv-contrib-python>=4.3.0.36
 tensorflow>=1.9.0
 Flask>=1.1.2
-git+https://github.com/prays/mtcnn@master
+mtcnn>=0.1.0
 lightgbm>=2.3.1
 dlib>=19.20.0
 retina-face>=0.0.1
